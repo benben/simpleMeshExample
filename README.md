@@ -7,7 +7,7 @@ simple openFrameworks example which creates a cube with ofMesh
 1. Clone or copy to your openFrameworks app folder
 2. Run the ofProjectGenerator or copy the needed project files from another example
 
-## What it does
+# What it does
 
 * draws a cube with ofMesh
 * uses ofEasyCam for looking around
