@@ -9,7 +9,6 @@ void testApp::setup(){
     
     float size = 100;
     
-    
     //this is pretty much like ofBox is doing it internally
     //stolen from https://github.com/openframeworks/openFrameworks/blob/master/libs/openFrameworks/graphics/ofGraphics.cpp#L915
     
@@ -66,7 +65,7 @@ void testApp::draw() {
     
     myMesh.draw();
     
-	myMaterial.end();
+    myMaterial.end();
     myLight.disable();
     ofDisableLighting();
     drawDebugInfo();
